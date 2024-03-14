@@ -111,7 +111,7 @@ export const BToaster = /*#__PURE__*/ extend({
           name: this.staticName,
           multiple: true,
           tag: 'div',
-          slim: false,
+          // slim: false,
           // transition: this.transition || DefaultTransition
           transition: DefaultTransition
         }

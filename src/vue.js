@@ -4,7 +4,7 @@ import { mergeData } from 'vue-functional-data-merge'
 // --- Constants ---
 const COMPONENT_UID_KEY = '_uid'
 
-const isVue3 = Vue.version.startsWith('3')
+const isVue3 = true
 
 export const REF_FOR_KEY = isVue3 ? 'ref_for' : 'refInFor'
 

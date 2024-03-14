@@ -444,7 +444,7 @@ export const BToast = /*#__PURE__*/ extend({
           name,
           to: this.computedToaster,
           order,
-          slim: true,
+          // slim: true,
           disabled: isStatic
         }
       },
